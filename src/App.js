@@ -11,7 +11,6 @@ function App() {
         <Header />
         <Switch>
           <Route path="/" exact component={ProductListing} />
-          <Route>404 Not Found!</Route>
         </Switch>
       </Router>
     </div>
