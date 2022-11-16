@@ -34,12 +34,9 @@ const ProductComponent = () => {
               <div className="hidden content">
                 <i className="shop icon">{quantity}</i>
               </div>
-              <button className="visible content" onClick={handleIncrement}>Add to Cart</button>
-              <button className="visible content" onClick={handleDecrement}>Remove Cart</button>
-
+              <button onClick={handleIncrement}>Add to Cart</button>
+              <button onClick={handleDecrement}>Remove Cart</button>
             </div>
-            {/* <div className="ui vertical button" tabIndex="0">
-            </div> */}
           </div>
         </div>
       </div>
